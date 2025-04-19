@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdwolwha7gkit"]
+
+[ext_resource type="Script" uid="uid://dkxu8cbp0jc2t" path="res://zble.gd" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Zble" type="Zble" parent="."]
+script = ExtResource("1_wtcfe")
